@@ -86,11 +86,11 @@ function setAuthorBio(type, author) {
     }
 }
 
-document.querySelector('#bylines').innerHTML = bylines_html;
-document.querySelector('.author-bios').innerHTML = bios_html;
+// document.querySelector('#bylines').innerHTML = bylines_html;
+// document.querySelector('.author-bios').innerHTML = bios_html;
 
 // pubdate
-document.querySelector('#pubdate').innerHTML = "Published " + data.pub_date;
+// document.querySelector('#pubdate').innerHTML = "Published " + data.pub_date;
 
 // title & slug
 document.querySelector('title').innerHTML = data.title + ' | Indiana Daily Student';
