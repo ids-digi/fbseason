@@ -65,7 +65,8 @@ h2 {
 
 	p {
 		position: absolute;
-		letter-spacing: 28%;
+		font-size: 18px;
+		letter-spacing: 6px;
 	}
 
 	p:first-of-type {
@@ -81,7 +82,7 @@ h2 {
 	h4 {
 		color: var(--yellow);
 		font-size: 24px;
-		letter-spacing: 16%;
+		letter-spacing: 4px;
 	}
 
 	h1 {
@@ -89,11 +90,12 @@ h2 {
 		filter: drop-shadow(2px 7px 1px #00000040);
 		padding: 0;
 		margin-bottom: 50px;
+		letter-spacing: 2px;
 	}
 
 	h3 {
 		font-size: 36px;
-		letter-spacing: 11%;
+		letter-spacing: 5px;
 	}
 }
 
@@ -118,9 +120,13 @@ h2 {
 				margin: 0;
 				color: white;
 				font-family: 'Anton', sans-serif;
-				letter-spacing: 28%;
+				letter-spacing: 6px;
 				font-size: 21px;
 				text-transform: uppercase;
+			}
+
+			p:last-of-type {
+				text-align: right;
 			}
 		}
 
@@ -128,13 +134,13 @@ h2 {
 			display: flex;
 			justify-content: center;
 			padding: 80px 60px 60px;
-			background-color: var(--green);
+			background-color: var(--idsred);
 			gap: 10%;
 
 			margin-bottom: var(--game-gap);
 
 			p {
-				letter-spacing: 16%;
+				letter-spacing: 14px;
 				color: white;
 				font-family: 'Anton', sans-serif;
 				font-size: 96px;
@@ -148,6 +154,7 @@ h2 {
 
 			.team.long {
 				font-size: 60px;
+				letter-spacing: 12px;
 			}
 			
 			.team:first-of-type {
@@ -169,12 +176,14 @@ h2 {
 					color: var(--yellow);
 					position: relative;
 					text-align: center;
+					text-wrap: nowrap;
 
 					&:before {
 						position: absolute;
 						top: -30px;
 						left: 50%;
 						translate: -50%;
+						letter-spacing: 5px;
 						
 						content: "Final";
 						color: white;
@@ -200,13 +209,13 @@ h2 {
 				
 				color: black;
 				font-size: 21px;
-				letter-spacing: 11%;
+				letter-spacing: 2px;
 				font-family: 'Anton', sans-serif;
 				background: var(--lt-gray);
 
 				text-align: center;
 				
-				padding: 50px;
+				padding: 30px 50px;
 				width: 30%;
 
 				margin: 0;
@@ -279,8 +288,8 @@ media queries helper
 /* Extra small devices (portrait phones, less than 576px)
 No media query for `xs` since this is the default */
 
-/* Small devices (landscape phones, 576px and up) */
-@media screen and (max-width: 900px) {
+
+@media screen and (max-width: 1300px) {
 	.headline-container {
 		padding-bottom: 50px;
 		max-width: 300px;
@@ -304,6 +313,7 @@ No media query for `xs` since this is the default */
 
 		p {
 			font-size: 15px;
+			letter-spacing: 5px;
 		}
 	}
 
@@ -317,33 +327,29 @@ No media query for `xs` since this is the default */
 				padding: 20px;
 
 				p {
-					letter-spacing: 22%;
-					font-size: 14px;
-				}
-
-				p:last-of-type {
-					text-align: right;
+					letter-spacing: 4px;
+					font-size: 16px;
 				}
 			}
 
 			.score {
-				padding: 35px 0 20px;
+				padding: 45px 0 25px;
 				gap: 3%;
 
 				p {
-					font-size: 30px;
+					font-size: 55px;
 					width: 100%;
 				}
 
 				.team.long {
-					font-size: 20px;
+					font-size: 35px;
 				}
 
 				.final-score {
 					p {
 						&:before {
 							top: -20px;
-							font-size: 14px;
+							font-size: 16px;
 						}
 					}
 				}
@@ -353,7 +359,69 @@ No media query for `xs` since this is the default */
 				gap: 2%;
 				
 				p {					
-					font-size: 14px;					
+					font-size: 16px;					
+					padding: 10px;
+				}
+			}
+
+			.photos {
+				margin: 30px 0;
+				figure {
+					margin: 0 0 30px;
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 900px) {
+	.games {
+		--game-gap: 15px;
+		
+		padding: 15px;
+
+		.game {
+			.meta {
+				padding: 20px;
+
+				p {
+					letter-spacing: 3px;
+					font-size: 14px;
+				}
+			}
+
+			.score {
+				padding: 35px 0 20px;
+				gap: 3%;
+
+				p {
+					font-size: 30px;
+					letter-spacing: 6px;
+					width: 100%;
+				}
+
+				.team.long {
+					font-size: 20px;
+					letter-spacing: 3px;
+				}
+
+				.final-score {
+					p {
+						&:before {
+							top: -20px;
+							font-size: 14px;
+							letter-spacing: 3px;
+						}
+					}
+				}
+			}
+
+			.data {
+				gap: 2%;
+				
+				p {					
+					font-size: 14px;
+					letter-spacing: 1px;
 					padding: 10px;
 				}
 			}

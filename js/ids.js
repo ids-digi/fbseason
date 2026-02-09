@@ -52,7 +52,7 @@ window.addEventListener('scroll', function() {
 
 var moveItItem = function(el) {
     this.el = $(el);
-    this.speed = parseInt(this.el.attr('data-scroll-speed'));
+    this.speed = parseFloat(this.el.attr('data-scroll-speed'));
 };
 
 moveItItem.prototype.update = function(scrollTop) {

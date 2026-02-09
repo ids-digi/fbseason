@@ -1,8 +1,8 @@
 const data = {
     "url": "your-url-here",
-    "slug": "Story slug",
-    "headline": "This is the headline",
-    "title": "Buildout Template",
+    "slug": "Hoosier Nation",
+    "headline": "Hoosier Nation: the complete photo archive",
+    "title": "Hoosier Nation",
     "pub_date": "{insert your date in metadata.json}",
     "bylines": {
         "By": {
