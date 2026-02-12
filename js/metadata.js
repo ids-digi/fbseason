@@ -9,14 +9,14 @@ const data = {
 			{
 				"name": "Briana Pace",
 				"email": "bpace7530@gmail.com",
-				"pfp": "https://s3.amazonaws.com/snwceomedia/ids/582468e2-d203-46f6-bbf2-3a83a4f981ec.original.jpg",
-				"bio": "Matei has worked at the IDS since 2023 for the digital desk."
+				"pfp": "https://s3.amazonaws.com/snwceomedia/ids/182ec7c5-7022-44d0-876e-66ca651887b7.original.jpg",
+				"bio": "Briana Pace is a senior studying journalism and political science. She currently serves as a photo editor."
 			},
 			{
 				"name": "Jimmy Rush",
 				"email": "jamprush@iu.edu",
-				"pfp": "https://s3.amazonaws.com/snwceomedia/ids/582468e2-d203-46f6-bbf2-3a83a4f981ec.original.jpg",
-				"bio": "Matei has worked at the IDS since 2023 for the digital desk."
+				"pfp": "https://s3.amazonaws.com/snwceomedia/ids/196dac73-e845-4a8f-8d87-584d717c263b.original.jpg",
+				"bio": "Jimmy is a senior and co-visuals editor for the IDS."
 			},
 			{
 				"name": "Lauren McKinney",
@@ -27,7 +27,7 @@ const data = {
 			{
 				"name": "Sophia Kaplan",
 				"email": "sokaplan@iu.edu",
-				"pfp": "https://s3.amazonaws.com/snwceomedia/ids/582468e2-d203-46f6-bbf2-3a83a4f981ec.original.jpg",
+				"pfp": "https://s3.amazonaws.com/snwceomedia/ids/d4924f7b-3ec0-4471-8f19-358c6f42dcfb.original.jpg",
 				"bio": "Matei has worked at the IDS since 2023 for the digital desk."
 			},
 		],

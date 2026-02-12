@@ -293,7 +293,7 @@ No media query for `xs` since this is the default */
 @media screen and (max-width: 1300px) {
 	.headline-container {
 		padding-bottom: 50px;
-		max-width: 300px;
+		max-width: 400px;
 
 		h4 {
 			font-size: 18px;
