@@ -94,7 +94,7 @@ h2 {
 	}
 
 	h3 {
-		font-size: 36px;
+		font-size: 30px;
 		letter-spacing: 5px;
 	}
 }
@@ -104,6 +104,7 @@ h2 {
 	--game-gap: 30px;
 	
 	padding: 30px;
+	padding-bottom: 0;
 	max-width: 1600px;
 	margin: 0 auto;
 
@@ -231,7 +232,7 @@ h2 {
 
 			gap: var(--gap);
 
-			margin: 50px 0;
+			margin: 50px 0 0;
 			
 			figure {
 				max-width: calc((100% - var(--gap)) / 2);
@@ -304,7 +305,8 @@ No media query for `xs` since this is the default */
 		}
 
 		h3 {
-			font-size: 22px;
+			font-size: 20px;
+			letter-spacing: 3px;
 		}
 
 		p:last-of-type {

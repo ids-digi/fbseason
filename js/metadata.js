@@ -1,34 +1,42 @@
 const data = {
     "url": "your-url-here",
-    "slug": "Hoosier Nation",
-    "headline": "Hoosier Nation: the complete photo archive",
-    "title": "Hoosier Nation",
+    "slug": "Perfect Season",
+    "headline": "Perfect season: Indiana football’s historic championship run",
+    "title": "Perfect Season",
     "pub_date": "{insert your date in metadata.json}",
     "bylines": {
-        "By": {
-            "name": "Cate Charron",
-            "email": "catchar@iu.edu",
-            "twitter": "catcharron",
-            "pfp": "https://pbs.twimg.com/profile_images/1499562155896619014/CUD2EvuV_400x400.jpg",
-            "bio": "Cate has worked at the IDS since 2019 as a reporter and designer."
-        },
-        "Photos by": {
-            "name": "Izzy Myszak",
-            "email": "izzymyszak@iu.edu",
-            "twitter": "izzymyszak"
-        },
+        "Photos by": [
+			{
+				"name": "Briana Pace",
+				"email": "bpace7530@gmail.com",
+				"pfp": "https://s3.amazonaws.com/snwceomedia/ids/582468e2-d203-46f6-bbf2-3a83a4f981ec.original.jpg",
+				"bio": "Matei has worked at the IDS since 2023 for the digital desk."
+			},
+			{
+				"name": "Jimmy Rush",
+				"email": "jamprush@iu.edu",
+				"pfp": "https://s3.amazonaws.com/snwceomedia/ids/582468e2-d203-46f6-bbf2-3a83a4f981ec.original.jpg",
+				"bio": "Matei has worked at the IDS since 2023 for the digital desk."
+			},
+			{
+				"name": "Lauren McKinney",
+				"email": "ldmckinn@iu.edu",
+				"pfp": "https://s3.amazonaws.com/snwceomedia/ids/582468e2-d203-46f6-bbf2-3a83a4f981ec.original.jpg",
+				"bio": "Matei has worked at the IDS since 2023 for the digital desk."
+			},
+			{
+				"name": "Sophia Kaplan",
+				"email": "sokaplan@iu.edu",
+				"pfp": "https://s3.amazonaws.com/snwceomedia/ids/582468e2-d203-46f6-bbf2-3a83a4f981ec.original.jpg",
+				"bio": "Matei has worked at the IDS since 2023 for the digital desk."
+			},
+		],
         "Design and development by": {
-            "name": "Carson TerBush",
-            "email": "cterbush@iu.edu",
-            "twitter": "carsonology",
-            "pfp": "https://pbs.twimg.com/profile_images/1477852735278129152/vk-AiTE6_400x400.jpg",
-            "bio": "Carson has worked at the IDS since 2019 as a reporter and designer."
+            "name": "Matei Cloteaux",
+            "email": "mcloteau@iu.edu",
+            "pfp": "https://s3.amazonaws.com/snwceomedia/ids/582468e2-d203-46f6-bbf2-3a83a4f981ec.original.jpg",
+            "bio": "Matei has worked at the IDS since 2023 for the digital desk."
         },
-        "Graphics by": {
-            "name": "Vivek Rao",
-            "email": "vivrao@iu.edu",
-            "twitter": "vivrao"
-        }
     }
 }
 
@@ -87,7 +95,7 @@ function setAuthorBio(type, author) {
 }
 
 // document.querySelector('#bylines').innerHTML = bylines_html;
-// document.querySelector('.author-bios').innerHTML = bios_html;
+document.querySelector('.author-bios').innerHTML = bios_html;
 
 // pubdate
 // document.querySelector('#pubdate').innerHTML = "Published " + data.pub_date;
